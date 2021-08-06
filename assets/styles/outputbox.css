@@ -1,0 +1,16 @@
+.outputbox {
+	width: 100%;
+	padding: 16px;
+	padding-left: 22px;
+	padding-right: 22px;
+	border: none;
+	cursor: default;
+	color: #e4b854;
+	font-size: 25px;
+	text-align: right;
+	background-color: #4c310b;
+}
+
+.outputbox:focus {
+	outline: none;
+}

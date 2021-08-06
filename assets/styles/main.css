@@ -1,0 +1,23 @@
+@import './button.css';
+@import './outputbox.css';
+
+* {
+	box-sizing: border-box;
+	font-family: Ubuntu;
+}
+
+body {
+	margin: 0;
+	background-color: #eee;
+}
+
+.calc-container {
+	position: fixed;
+	background-color: #4c310b;
+	top: 50%;
+	left: 50%;
+	width: 243px;
+	transform: translate(-50%,-50%);
+	box-shadow: 6px 6px 0px #222;
+}
+

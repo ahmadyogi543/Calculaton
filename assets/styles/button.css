@@ -1,0 +1,35 @@
+
+.btn-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 1px;
+}
+
+.calc-btn {
+	border: none;
+	cursor: pointer;
+	color: #4c310b;
+	background-color: #e4b854;
+	padding: 10px;
+	font-size: 1em;
+	width: 60px;
+	height: 60px;
+}
+
+.calc-btn:hover {
+	filter: brightness(0.8);
+}
+
+.col-two {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	width: 121px;
+}
+
+.op-color {
+	background-color: #e9c676;
+}
+
+.op-color2 {
+	background-color: #b69343;
+}
